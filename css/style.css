@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;  
+}
+
+.container {
+    display: flex;
+    padding: .5em 0 0 22%;;
+}
+
+
+.sidebar{
+    width: 20%;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    padding: .25em 0;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.541);
+}
+
+.side-buttons{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.side-buttons button{
+    display: block;
+    color: #6cff5c;
+    border: 0;
+    margin: .5em 0 .5em 0;
+    text-align: left;
+    font-size: 1.4em;
+    height: auto;
+    width: 100%;
+    background-color:  transparent;
+}
+
+.side-buttons button:hover {
+    color: black;
+}
+
+.addcategory {
+ display: grid;
+ grid-template-rows: 2em auto;
+ grid-template-columns: 100%;
+}
+
+.side-buttons .enterCategoryButton {
+   width: 80%;
+   padding: 0;
+   margin: 0 0 0 10%;
+   text-align: center;
+}
+
+.categoryInput {
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    outline: none;
+    color: transparent;
+}
+
+.categoryInput:focus {
+    color: black;
+}
+
+.itemList{
+    list-style-type: none;
+    padding: 0;
+}
+
+.itemList a {
+    text-decoration: none;
+}
+
